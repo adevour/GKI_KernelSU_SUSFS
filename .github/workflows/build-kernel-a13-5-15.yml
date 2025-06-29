@@ -34,12 +34,12 @@ on:
         description: '是否开启增加更多ZRAM算法?'
         required: true
         type: boolean
-        default: true
+        default: false
       use_kpm:
         description: '是否开启KPM功能?'
         required: true
         type: boolean
-        default: true
+        default: false
       set_defbbr:
         description: '是否将BBR设为默认拥塞算法?（实验性）'
         required: true
