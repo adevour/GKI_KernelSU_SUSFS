@@ -28,8 +28,9 @@ on:
         default: Dev(开发)
       version:
         description: '自定义版本名(如5.15.167后面的字符/留空则使用默认版本号)'
-        required: false
+        required: true
         type: string
+        default: "-android13-8-00008-g31975b884c4b-ab13216403"
       use_zram:
         description: '是否开启增加更多ZRAM算法?'
         required: true
